@@ -1,0 +1,59 @@
+.nav-header {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #272727;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-logo {
+  width: 150px;
+  margin-left: 25px;
+}
+
+.nav-home-jobs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+.nav-home-jobs-side {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-pages {
+  list-style-type: none;
+  color: #f8fafc;
+  font-weight: bold;
+}
+
+.nav-list-button {
+  margin-left: auto;
+  list-style-type: none;
+}
+
+.nav-logout-button {
+  width: 150px;
+  height: 35px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #6366f1;
+  color: white;
+  border-radius: 4px;
+  margin-right: 25px;
+}

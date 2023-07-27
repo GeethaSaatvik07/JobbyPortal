@@ -1,0 +1,91 @@
+.job-item-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 15px;
+  background-color: #272727;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.company-position-rating {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo-card {
+  width: 75px;
+  margin-right: 15px;
+}
+
+.position-card {
+  font-size: 22px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.star-rating-card {
+  display: flex;
+  align-items: center;
+}
+
+.star-card {
+  margin-right: 10px;
+  color: #fbbf24;
+}
+
+.rating-card {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.location-type-salary {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-type {
+  width: 26%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.location-card {
+  display: flex;
+  align-items: center;
+}
+
+.location-icon-card {
+  font-size: 16px;
+  margin-right: 5px;
+  color: white;
+}
+
+.location-name-card {
+  font-size: 18px;
+  color: white;
+}
+
+.item-card-line {
+  border: 1px solid grey;
+  width: 100%;
+}
+
+.item-desc-heading {
+  font-size: 18px;
+  color: white;
+}
+
+.item-desc-para {
+  font-size: 15px;
+  color: #f1f5f9;
+}

@@ -1,0 +1,22 @@
+.not-found-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.not-found-image {
+  width: 400px;
+}
+
+.not-found-heading {
+  font-size: 36px;
+  color: white;
+}
+
+.not-found-para {
+  font-size: 23px;
+  color: #cbd5e1;
+}
